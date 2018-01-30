@@ -44,7 +44,7 @@ Once ScapeToad finishes, export the transformed cartogram. Load it into R using 
 
 ```
 cartogram <- st_read('election-cartogram.shp', stringsAsFactors = FALSE)
-  st_crs(cartogram) = 4326
+st_crs(cartogram) = 4326
 ```
 
 Now you can plot it as you did the original election map.
