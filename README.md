@@ -16,9 +16,9 @@ County-level election results
 
 Create a county-level election cartogram, with the areas scaled by the number of votes.
 
-Due: 6-Feb-2018 before the start of class
+Due: 6-Feb-2018 before the start of class (optional)
 
-![US Election Cartogram](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-3/blob/master/election-cartogram-counties.png "US Election Cartogram")
+![US Election Cartogram](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-3/blob/master/election-cartogram.png "US Election Cartogram")
 
 U.S. Election Cartogram
 
