@@ -38,7 +38,7 @@ ScapeToad is very easy to use. Just import the shapefile layer, press the Create
 - Section 2: "Spatial coverage" = the shapefile you just imported
 - Section 3: "Cartogram attribute" = total votes ("ttl_vts") / "Attribute type" = Mass
 - Section 4: skip
-- Section 5: you can refine the quality of the transformatio here, or just use the default settings
+- Section 5: you can refine the quality of the transformation here, or just use the default settings
 
 Once ScapeToad finishes, export the transformed cartogram. Load it into R using "st_read()" and set the CRS to WGS 84.
 
