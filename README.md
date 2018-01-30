@@ -14,7 +14,7 @@ County-level election results
 
 ## Assignment (optional)
 
-Create a county-level election cartogram, with the areas scaled by the number of votes.
+Use [ScapeToad](https://scapetoad.choros.ch/download.php) to create a county-level election cartogram, with the areas scaled by the number of votes.
 
 Due: 6-Feb-2018 before the start of class (optional)
 
@@ -31,7 +31,7 @@ st_transform(st_as_sf(elecjoin),crs = 4326) %>%
   st_write("election-map.shp", driver = "ESRI Shapefile")
 ```
 
-Download [ScapeToad], a simple application for making cartograms. There is no installation required. Just download the .zip, unpack the contents, and run the ScapeToad.exe executable.
+Download [ScapeToad](https://scapetoad.choros.ch/download.php), a simple application for making cartograms. There is no installation required. Just download the .zip, unpack the contents, and run the ScapeToad.exe executable.
 
 ScapeToad is very easy to use. Just import the shapefile layer, press the Create Cartogram button, and follow the instructions.
 - Section 1: skip
