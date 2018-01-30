@@ -26,8 +26,9 @@ U.S. Election Cartogram
 
 Begin by exporting the election map we made in class, either the simple red-blue map or the one that scales by vote margin. Remember to transform the coordinates to WGS 84 (crs code 4326) before exporting.
 
-`st_transform(st_as_sf(elecjoin),crs = 4326) %>%`
-  `st_write("election-map.shp", driver = "ESRI Shapefile")`
+```st_transform(st_as_sf(elecjoin),crs = 4326) %>%
+  st_write("election-map.shp", driver = "ESRI Shapefile")
+```
 
 Download [ScapeToad], a simple application for making cartograms. There is no installation required. Just download the .zip, unpack the contents, and run the ScapeToad.exe executable.
 
@@ -40,8 +41,9 @@ ScapeToad is very easy to use. Just import the shapefile layer, press the Create
 
 Once ScapeToad finishes, export the transformed cartogram. Load it into R using "st_read()" and set the CRS to WGS 84.
 
-`cartogram <- st_read('election-cartogram.shp', stringsAsFactors = FALSE)`
-`st_crs(cartogram) = 4326`
+```cartogram <- st_read('election-cartogram.shp', stringsAsFactors = FALSE)
+  st_crs(cartogram) = 4326
+```
 
 Now you can plot it as you did the original election map.
 
