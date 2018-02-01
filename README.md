@@ -13,6 +13,7 @@ County-level election results
 - Colors: [Paletton](http://paletton.com/) - tool for finding complimentary colors
 - Colors: [ColorBrewer](http://colorbrewer2.org) - perceptually uniform color scales for maps
 - Colors: [Colour Lovers](http://www.colourlovers.com/palettes/most-loved/all-time/meta) - most "loved" color palettes
+- Colors: [Sswat.ch](https://sswat.ch/) - curated palettes sourced from [Dribbble](https://dribbble.com/)
 
 ## Assignment (optional)
 
