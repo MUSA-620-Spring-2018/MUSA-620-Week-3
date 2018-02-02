@@ -19,13 +19,13 @@ County-level election results
 
 Use [ScapeToad](https://scapetoad.choros.ch/download.php) to create a county-level election cartogram, with the areas scaled by the number of votes.
 
-Due: 6-Feb-2018 before the start of class (optional)
+**Due:** 6-Feb-2018 before the start of class (optional)
 
 ![US Election Cartogram](https://github.com/MUSA-620-Spring-2018/MUSA-620-Week-3/blob/master/election-cartogram.png "US Election Cartogram")
 
-U.S. Election Cartogram
+2016 U.S. presidential election cartogram
 
-#### Description
+### Description
 
 Begin by exporting the election map we made in class, either the simple red-blue map or the one that scales by vote margin. Remember to transform the coordinates to WGS 84 (crs code 4326) before exporting.
 
